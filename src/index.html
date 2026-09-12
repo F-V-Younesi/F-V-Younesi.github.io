@@ -1,0 +1,479 @@
+<style>
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.roww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+</style>
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>[Fatemeh V.Younesi] | Ai Engineer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="I am Ai Enginner" content="[Fatemeh V.Younesi] | Ai Engineer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <!--<script async defer src="https://buttons.github.io/buttons.js"></script>-->
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Fatemeh V.Younesi</span>
+          <br />
+          I'm Ai Engineer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >My Experiences</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/me.png"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                AI Engineer specializing in production NLP, LLM and speech/audio AI systems, with experience taking AI models from experimentation to real-world deployable services.
+              </p>
+              <p class="about-wrapper__info-text">
+                AI Engineer | Multimodal AI | AI Agents | Speech AI | LLMs 
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View My Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">BaniBot: Data Entry Automation Bot for Technolife</h3>
+                <div>
+                  <p class="mb-4">
+                  BaniBot is a Data Entry Automation Bot that I developed for Technolife platform. It handles importing new products and changes(like price changing) for Technolife sellers.<br>
+                  It connects to seller's website or product data sheet to update automaticaly the Stock and price of products in Technolife.
+
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/F-V-Younesi/Banibot"
+                >
+                  Source Code
+                </a>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a> -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/F-V-Younesi/Banibot" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/technolife.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Intelligent Video Dubbing Platform</h3>
+                <div>
+                  <p class="mb-4">
+                   Developed an end-to-end multilingual video dubbing pipeline combining ASR, speaker diarization, voice cloning, TTS and Auto-subtitle generation.<br>
+Implemented speaker-level voice mapping and text-to-speech generation for multilingual content(From all languages to all languages!).<br>
+Built audio preprocessing and dataset preparation pipelines for voice cloning.<br>
+Including designing three separate algorithms for dubbing(Hard Sync, Soft Sync, Voice-Over)<br>
+Deployed inference services using FastAPI and Docker.
+
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/zaribafoloom/dubbing"
+                >
+                  Source Code
+                </a>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a> -->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/zaribafoloom/dubbing" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/dubbing.webp"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Interactive LLm powered NPC in a Metaverse space</h3>
+                <div>
+                  <p class="mb-4">
+This is a big Project as we build a multimodal AI Product. this project needs Integration of 4 essential modules:
+<br>
+1- ASR model: We Investigated different models for our purpose in different languages, and the worked on Streaming it for increasing speed. 
+<br>
+2- Emotion Recognition from text and audio
+<br>
+3- LLM response: We used RAG and Prompt Engineering Methods for getting optimal and correct responds.
+<br>
+4- TTS model: We need certain person's voice, then we went through all the steps from collecting audio data, denoising and removing Reverb and background sounds, cleaning it(Preprocessing), building an audio dataset, and then training on it. The MOS metric of trained mode: 4.7.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/F-V-Younesi/Metaverse"
+                >
+                  Source Code
+                </a>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/F-V-Younesi/Metaverse" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/npc.webp"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Emotion Recognition from Tweet's text</h3>
+                <div>
+                  <p class="mb-4">
+                    Emotion Recognition from arabic Tweet's text with Fine-tuning Bert model on specific Arabic dataset(with Dataset building)
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/F-V-Younesi/Arabic-Emotion-Recognition"
+                >
+                  Source Code
+                </a>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/F-V-Younesi/Arabic-Emotion-Recognition" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/emo2.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Keyword Extraction from Video/Audio sources</h3>
+                <div>
+                  <p class="mb-4">
+                    multimodal Project, consists of ASR models, denoising input media and persian keyword extraction models.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/F-V-Younesi/Keyword-Extraction-From-Video-and-Audio-Sources"
+                >
+                  Source Code
+                </a>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/F-V-Younesi/Keyword-Extraction-From-Video-and-Audio-Sources" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/keyword.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+
+    
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+<div class="roww">
+  <div class="column"><h1>AI & Machine Learning</h1>
+  <p>
+ASR | 
+TTS | 
+LLMs |
+AI Agents <br>
+RAG |
+Voice Cloning |
+Prompt Engineering <br>
+Hugging Face |
+LangChain |
+ChromaDB
+  </p>
+  </div>
+  <div class="column"><h1>Software & Infrastructure</h1>
+  <p>
+Python | 
+C++ | 
+PostgreSQL <br>
+Docker | 
+Git | 
+Linux <br>
+On-Premise / Remote Server | 
+Selenium / Automation
+
+  </p></div>
+  <div class="column"><h1>Engineering & Management</h1>
+  <p>
+Agile / Scrum | 
+Project Management<br>
+Software Architecture | 
+API Design & Development <br>
+Feasibility Analysis | 
+Problem Solving
+  </p></div>
+</div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://huggingface.co/fvyounesi" target="_blank">
+           <!-- <i class="fa fa-twitter fa-inverse"></i>-->
+            <img
+              alt="huggingface"
+              class="img-fluid"
+              src="assets/huggingface2.png"
+            />
+          </a>
+          <a rel="noreferrer" href="https://www.linkedin.com/in/fatemeh-vahidunesi/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/F-V-Younesi" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2025 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+            >Fatemeh.V.Younesi</a
+          >
+        </p>
+
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
