@@ -18,10 +18,12 @@
 @import "./sass/sections/projects";
 
 /* Mobile responsive layout */
+
 @media screen and (max-width: 768px) {
   .roww {
     display: flex;
     flex-direction: column;
+    gap: 25px; /* Space between sections */
   }
 
   .column {
@@ -29,6 +31,7 @@
     max-width: 100%;
     box-sizing: border-box;
     float: none;
+    margin-bottom: 10px;
   }
 
   .column h1 {
@@ -41,3 +44,4 @@
     overflow-wrap: break-word;
   }
 }
+
