@@ -16,3 +16,28 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+/* Mobile responsive layout */
+@media screen and (max-width: 768px) {
+  .roww {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    float: none;
+  }
+
+  .column h1 {
+    font-size: 22px;
+    overflow-wrap: break-word;
+  }
+
+  .column p {
+    line-height: 1.8;
+    overflow-wrap: break-word;
+  }
+}
