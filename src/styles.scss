@@ -87,3 +87,10 @@
   line-height: 1.8;
 }
 
+
+/* Center Source Code buttons on mobile only */
+@media screen and (max-width: 767px) {
+  #projects .project-wrapper__text {
+    text-align: center;
+  }
+}
