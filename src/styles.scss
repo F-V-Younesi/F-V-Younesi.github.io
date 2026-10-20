@@ -55,3 +55,29 @@
 }
 
 
+/* Fix About section overlap on mobile */
+@media screen and (max-width: 767px) {
+  #about {
+    height: auto;
+    min-height: 0;
+    padding-bottom: 3rem;
+    overflow: visible;
+  }
+
+  #about .about-wrapper {
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  #about .about-wrapper__info {
+    padding-bottom: 1rem;
+  }
+
+  #projects {
+    position: relative;
+    clear: both;
+    margin-top: 0;
+    padding-top: 3rem;
+  }
+}
+
