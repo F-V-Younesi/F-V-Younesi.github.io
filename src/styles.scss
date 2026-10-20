@@ -81,3 +81,9 @@
   }
 }
 
+/* Increase About Me text size */
+#about .about-wrapper__info-text:first-child {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
